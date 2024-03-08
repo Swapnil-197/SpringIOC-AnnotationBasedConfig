@@ -11,7 +11,7 @@ public class Student {
 	Integer age ;
 	ArrayList<String> mobileno;
 	@Autowired
-	@Qualifier("add1")
+	@Qualifier("add2")
 	Address address;
 	
 	public Student() {
