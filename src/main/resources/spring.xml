@@ -16,11 +16,11 @@
 		<property name="landmark" value="FC Road Pune"></property>
 	</bean>
 	
-	<bean id="add" class="com.beans.Address">
+	<bean id="add1" class="com.beans.Address">
 		<property name="landmark" value="Karve Road Pune"></property>
 	</bean>
 	
-	<bean id="add" class="com.beans.Address">
+	<bean id="add2" class="com.beans.Address">
 		<property name="landmark" value="Viman Nagar Pune"></property>
 	</bean>
 

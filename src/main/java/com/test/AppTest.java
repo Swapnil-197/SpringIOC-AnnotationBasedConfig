@@ -31,18 +31,21 @@ public class AppTest {
 	    System.out.println(student.getAge());
 	    System.out.println(student.getAddress().getLandmark());
 	    System.out.println(student.hashCode());
-	    System.out.println();
-	    Student student1 = (Student) ctx.getBean("stu");
-	    System.out.println(student1.getName());
-	    System.out.println(student1.getAge());
-	    System.out.println(student1.hashCode());
-	    System.out.println();
-
-	    Student student2 = (Student) ctx.getBean("stu");
 	    
-	    System.out.println(student2.getName());
-	    System.out.println(student2.getAge());
-	    System.out.println(student2.hashCode());
+//	    System.out.println();
+//	    
+//	    Student student1 = (Student) ctx.getBean("stu");
+//	    System.out.println(student1.getName());
+//	    System.out.println(student1.getAge());
+//	    System.out.println(student1.hashCode());
+//	    
+//	    System.out.println();
+//
+//	    Student student2 = (Student) ctx.getBean("stu");
+//	    
+//	    System.out.println(student2.getName());
+//	    System.out.println(student2.getAge());
+//	    System.out.println(student2.hashCode());
 	    
 	    // See the difference between java and spring by running program 
 	}

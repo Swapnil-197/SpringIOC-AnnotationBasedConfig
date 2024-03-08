@@ -3,6 +3,7 @@ package com.beans;
 import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Student {
 
@@ -10,6 +11,7 @@ public class Student {
 	Integer age ;
 	ArrayList<String> mobileno;
 	@Autowired
+	@Qualifier("add1")
 	Address address;
 	
 	public Student() {
